@@ -12,7 +12,11 @@ public class DavidTask {
    * @return the greatest common divisor of the two integers.
    */
   public int greatestCommonDivisor(int a, int b) {
-    throw new UnsupportedOperationException();
+    //throw new UnsupportedOperationException();
+    if (b == 0) {
+      return a;
+    }
+    return greatestCommonDivisor(b, a % b);
   }
 
 }
