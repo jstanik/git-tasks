@@ -19,14 +19,4 @@ public class KonstantinTask {
     }
     return a;
   }
-
-  public static void main(String[] args) {
-    KonstantinTask task = new KonstantinTask();
-
-    int num1 = 48;
-    int num2 = 18;
-    int gcd = task.greatestCommonDivisor(num1, num2);
-
-    System.out.println("The greatest common divisor (GCD) of numbers " + num1 + " and " + num2 + " is " + gcd);
-  }
 }
