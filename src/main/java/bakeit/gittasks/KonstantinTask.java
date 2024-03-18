@@ -12,7 +12,11 @@ public class KonstantinTask {
    * @return the greatest common divisor of the two integers.
    */
   public int greatestCommonDivisor(int a, int b) {
-    throw new UnsupportedOperationException();
+    while (b != 0) {
+      int temp = b;
+      b = a % b;
+      a = temp;
+    }
+    return a;
   }
-
 }
