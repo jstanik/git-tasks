@@ -26,7 +26,8 @@ public class CommonTasks {
    * @return {@code true} if the {@code value} is "odd"; {@code false} otherwise.
    */
   public boolean isOdd(int value) {
-    throw new UnsupportedOperationException();
+    return value % 2 != 0;
+
   }
 
   /**
