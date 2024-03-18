@@ -16,10 +16,10 @@ public class CommonTasks {
    *
    * @return the minimum value of the two given numbers.
    */
-  public int findMin(int a, int b) {
-    throw new UnsupportedOperationException();
+  public int findMin(int a, int b)
+  {
+    return Math.min(a, b);
   }
-
   /**
    * Task for David
    *
